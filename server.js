@@ -6,7 +6,7 @@ app.get('/', function(request, response){
 });
 
 app.get('/aggressive-locust', function(request, response){
-    response.send('aggressive locust');
+    response.send('aggressive-locust');
 });
 
 app.listen(process.env.PORT || 4000);
